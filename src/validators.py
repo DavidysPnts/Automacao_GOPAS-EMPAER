@@ -41,3 +41,28 @@ def validar_uc(uc_cliente: str, uc_atendimento: str) -> tuple[bool, str, str]:
         return True, miolo_com_digito, ""
     else:
         return False, atendimento_limpo, f"UC divergente (Esperado: {cliente_limpo} | Encontrado: {miolo} ou {miolo_com_digito})"
+
+def processar_lote(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Separa o DataFrame entre registros validados e registros para quarentena."""
+    aprovados = []
+    quarentena = []
+
+    for _, linha in df.iterrows():
+        registro = linha.to_dict()
+        valido, uc_extraida, motivo = validar_uc(
+            registro.get("UC DO CLIENTE"),
+            registro.get("ATENDIMENTO")
+        )
+
+        if valido:
+            # Padroniza a coluna ATENDIMENTO apenas com os números validados
+            registro["ATENDIMENTO"] = uc_extraida
+            aprovados.append(registro)
+        else:
+            registro["MOTIVO_QUARENTENA"] = motivo
+            quarentena.append(registro)
+
+    df_aprovados = pd.DataFrame(aprovados)
+    df_quarentena = pd.DataFrame(quarentena)
+    
+    return df_aprovados, df_quarentena
