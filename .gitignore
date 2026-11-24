@@ -16,3 +16,12 @@ __pycache__/
 
 # Configuracoes da IDE (VS Code)
 .vscode/
+
+# Pastas de entrada e saida (mantendo apenas o .gitkeep)
+data/input/*
+!data/input/.gitkeep
+data/output/*
+!data/output/.gitkeep
+
+# Cache de testes
+.pytest_cache/
