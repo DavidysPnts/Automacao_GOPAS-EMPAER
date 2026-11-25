@@ -1,0 +1,474 @@
+{
+  "metadados": {
+    "descricao": "Lista de IDs e atividades agropecuarias elegiveis a isencao de ICMS na energia eletrica rural (SEFAZ-PB / EMPAER)",
+    "ultima_atualizacao": "2026-11-25",
+    "total_registros": 116,
+    "fonte": "IDs_culturas.pdf (GOPAS / EMPAER)"
+  },
+  "culturas": {
+    "1": {
+      "nome": "Abacaxi",
+      "ativo": true
+    },
+    "3": {
+      "nome": "Apicultura",
+      "ativo": true
+    },
+    "13": {
+      "nome": "Arroz Vermelho",
+      "ativo": true
+    },
+    "15": {
+      "nome": "Avicultura Capoeira",
+      "ativo": true
+    },
+    "16": {
+      "nome": "Banana Pacovan",
+      "ativo": true
+    },
+    "18": {
+      "nome": "Bovinocultura de Corte",
+      "ativo": true
+    },
+    "19": {
+      "nome": "Bovinocultura de Leite",
+      "ativo": true
+    },
+    "27": {
+      "nome": "Cebola Branca",
+      "ativo": true
+    },
+    "32": {
+      "nome": "Feijão Verde Vagem",
+      "ativo": true
+    },
+    "35": {
+      "nome": "Inhame da Costa",
+      "ativo": true
+    },
+    "36": {
+      "nome": "Macaxeira",
+      "ativo": true
+    },
+    "37": {
+      "nome": "Manejo de Pastagem",
+      "ativo": true
+    },
+    "39": {
+      "nome": "Maracujá",
+      "ativo": true
+    },
+    "40": {
+      "nome": "Melancia",
+      "ativo": true
+    },
+    "41": {
+      "nome": "Milho Verde",
+      "ativo": true
+    },
+    "48": {
+      "nome": "Ovinocultura",
+      "ativo": true
+    },
+    "50": {
+      "nome": "Piscicultura",
+      "ativo": true
+    },
+    "57": {
+      "nome": "Suinocultura",
+      "ativo": true
+    },
+    "61": {
+      "nome": "Urucum",
+      "ativo": true
+    },
+    "87": {
+      "nome": "Coco Verde",
+      "ativo": true
+    },
+    "88": {
+      "nome": "Laranja Pera",
+      "ativo": true
+    },
+    "89": {
+      "nome": "Limão Tahiti",
+      "ativo": true
+    },
+    "90": {
+      "nome": "Mamão Havaí",
+      "ativo": true
+    },
+    "91": {
+      "nome": "Feijão Verde",
+      "ativo": true
+    },
+    "92": {
+      "nome": "Pimenta do Reino",
+      "ativo": true
+    },
+    "93": {
+      "nome": "Tomate",
+      "ativo": true
+    },
+    "94": {
+      "nome": "Acelga",
+      "ativo": true
+    },
+    "95": {
+      "nome": "Pepino",
+      "ativo": true
+    },
+    "96": {
+      "nome": "Berinjela",
+      "ativo": true
+    },
+    "99": {
+      "nome": "Pimentão",
+      "ativo": true
+    },
+    "100": {
+      "nome": "Quiabo",
+      "ativo": true
+    },
+    "168": {
+      "nome": "Graviola",
+      "ativo": true
+    },
+    "169": {
+      "nome": "Jerimum Caboclo",
+      "ativo": true
+    },
+    "171": {
+      "nome": "Batata Doce",
+      "ativo": true
+    },
+    "172": {
+      "nome": "Goiaba",
+      "ativo": true
+    },
+    "174": {
+      "nome": "Acerola",
+      "ativo": true
+    },
+    "175": {
+      "nome": "Produção de Forragem",
+      "ativo": true
+    },
+    "195": {
+      "nome": "Maxixe",
+      "ativo": true
+    },
+    "196": {
+      "nome": "Cana de açúcar",
+      "ativo": true
+    },
+    "199": {
+      "nome": "Pimenta de Cheiro",
+      "ativo": true
+    },
+    "201": {
+      "nome": "Pitaya",
+      "ativo": true
+    },
+    "209": {
+      "nome": "Melão Espanhol",
+      "ativo": true
+    },
+    "210": {
+      "nome": "Milho Seco",
+      "ativo": true
+    },
+    "211": {
+      "nome": "Jerimum Leite",
+      "ativo": true
+    },
+    "212": {
+      "nome": "Abacate",
+      "ativo": true
+    },
+    "213": {
+      "nome": "Abobrinha",
+      "ativo": true
+    },
+    "214": {
+      "nome": "Batata Inglesa",
+      "ativo": true
+    },
+    "215": {
+      "nome": "Banana Prata",
+      "ativo": true
+    },
+    "216": {
+      "nome": "Beterraba",
+      "ativo": true
+    },
+    "217": {
+      "nome": "Feijão Seco",
+      "ativo": true
+    },
+    "218": {
+      "nome": "Alface",
+      "ativo": true
+    },
+    "220": {
+      "nome": "Meliponicultura",
+      "ativo": true
+    },
+    "221": {
+      "nome": "Caju",
+      "ativo": true
+    },
+    "222": {
+      "nome": "Coco Seco",
+      "ativo": true
+    },
+    "223": {
+      "nome": "Jaca",
+      "ativo": true
+    },
+    "224": {
+      "nome": "Laranja Cravo",
+      "ativo": true
+    },
+    "225": {
+      "nome": "Mamão Formosa",
+      "ativo": true
+    },
+    "226": {
+      "nome": "Limão Comum",
+      "ativo": true
+    },
+    "227": {
+      "nome": "Laranja Bahia",
+      "ativo": true
+    },
+    "228": {
+      "nome": "Laranja Comum",
+      "ativo": true
+    },
+    "229": {
+      "nome": "Manga Espada",
+      "ativo": true
+    },
+    "230": {
+      "nome": "Manga Tommy",
+      "ativo": true
+    },
+    "231": {
+      "nome": "Pimenta",
+      "ativo": true
+    },
+    "232": {
+      "nome": "Pinha",
+      "ativo": true
+    },
+    "233": {
+      "nome": "Tangerina",
+      "ativo": true
+    },
+    "235": {
+      "nome": "Uva Itália",
+      "ativo": true
+    },
+    "236": {
+      "nome": "Uva Isabel",
+      "ativo": true
+    },
+    "237": {
+      "nome": "Algodão Branco",
+      "ativo": true
+    },
+    "238": {
+      "nome": "Algodão Colorido",
+      "ativo": true
+    },
+    "239": {
+      "nome": "Alho Poró",
+      "ativo": true
+    },
+    "240": {
+      "nome": "Brócolis",
+      "ativo": true
+    },
+    "241": {
+      "nome": "Amendoim em Casca",
+      "ativo": true
+    },
+    "243": {
+      "nome": "Banana Nanica",
+      "ativo": true
+    },
+    "244": {
+      "nome": "Banana Maçã",
+      "ativo": true
+    },
+    "245": {
+      "nome": "Banana Comprida",
+      "ativo": true
+    },
+    "246": {
+      "nome": "Inhame São Tomé Cará",
+      "ativo": true
+    },
+    "247": {
+      "nome": "Cebolinha",
+      "ativo": true
+    },
+    "248": {
+      "nome": "Cenoura",
+      "ativo": true
+    },
+    "249": {
+      "nome": "Chuchu",
+      "ativo": true
+    },
+    "250": {
+      "nome": "Coentro",
+      "ativo": true
+    },
+    "251": {
+      "nome": "Couve Folha",
+      "ativo": true
+    },
+    "252": {
+      "nome": "Couve Flor",
+      "ativo": true
+    },
+    "253": {
+      "nome": "Espinafre",
+      "ativo": true
+    },
+    "254": {
+      "nome": "Fava",
+      "ativo": true
+    },
+    "255": {
+      "nome": "Feijão Carioca",
+      "ativo": true
+    },
+    "256": {
+      "nome": "Feijão Macássar",
+      "ativo": true
+    },
+    "258": {
+      "nome": "Morango",
+      "ativo": true
+    },
+    "260": {
+      "nome": "Repolho",
+      "ativo": true
+    },
+    "261": {
+      "nome": "Rúcula",
+      "ativo": true
+    },
+    "262": {
+      "nome": "Vagem",
+      "ativo": true
+    },
+    "263": {
+      "nome": "Carcinicultura",
+      "ativo": true
+    },
+    "264": {
+      "nome": "Mariscos e Ostras",
+      "ativo": true
+    },
+    "293": {
+      "nome": "Avicultura Postura Industrial",
+      "ativo": true
+    },
+    "294": {
+      "nome": "Avicultura Corte Caipira",
+      "ativo": true
+    },
+    "296": {
+      "nome": "Avicultura Corte Industrial",
+      "ativo": true
+    },
+    "297": {
+      "nome": "Avicultura Postura Caipira",
+      "ativo": true
+    },
+    "298": {
+      "nome": "Caprinocultura de Leite",
+      "ativo": true
+    },
+    "299": {
+      "nome": "Pescado Artesanal",
+      "ativo": true
+    },
+    "301": {
+      "nome": "Caprinocultura de Corte",
+      "ativo": true
+    },
+    "302": {
+      "nome": "Silvicultura",
+      "ativo": true
+    },
+    "303": {
+      "nome": "Produção de Mudas",
+      "ativo": true
+    },
+    "304": {
+      "nome": "Quintal Produtivo",
+      "ativo": true
+    },
+    "315": {
+      "nome": "Manejo de Caatinga",
+      "ativo": true
+    },
+    "321": {
+      "nome": "Arroz Branco",
+      "ativo": true
+    },
+    "322": {
+      "nome": "Sapoti",
+      "ativo": true
+    },
+    "323": {
+      "nome": "Alho",
+      "ativo": true
+    },
+    "558": {
+      "nome": "Mangaba",
+      "ativo": true
+    },
+    "559": {
+      "nome": "Umbu",
+      "ativo": true
+    },
+    "560": {
+      "nome": "Castanha de Cajú",
+      "ativo": true
+    },
+    "627": {
+      "nome": "Milho",
+      "ativo": true
+    },
+    "628": {
+      "nome": "Feijão",
+      "ativo": true
+    },
+    "629": {
+      "nome": "Mandioca",
+      "ativo": true
+    },
+    "630": {
+      "nome": "Algodão",
+      "ativo": true
+    },
+    "631": {
+      "nome": "Gergelim",
+      "ativo": true
+    },
+    "633": {
+      "nome": "Olerícolas",
+      "ativo": true
+    },
+    "634": {
+      "nome": "Cajá",
+      "ativo": true
+    }
+  }
+}
