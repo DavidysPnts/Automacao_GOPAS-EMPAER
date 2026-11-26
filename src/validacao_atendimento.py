@@ -1,6 +1,7 @@
 from src.config import (
     CAMPOS_OBRIGATORIOS_ATENDIMENTO,
     DATA_CORTE_CONTA_ENERGIA,
+    IDS_CULTURAS_ELEGIVEIS,
     METODOS_VALIDOS_SEFAZ,
 )
 from src.higienizacao import normalizar_texto, parse_data
@@ -21,11 +22,8 @@ def auditar_campos_obrigatorios(atendimento: dict) -> list[str]:
     return erros
 
 
-def auditar_atividade_produtiva(atendimento: dict, culturas_validas: set | None = None) -> list[str]:
-    """
-    Valida se a atividade produtiva foi informada e se o ID existe na tabela de culturas.
-    Se 'culturas_validas' não for passado ainda, valida apenas presença de ID/texto válido.
-    """
+def auditar_atividade_produtiva(atendimento: dict, culturas_validas: set[str] = IDS_CULTURAS_ELEGIVEIS) -> list[str]:
+    """Valida se a atividade produtiva foi informada e se o ID existe na tabela de culturas elegíveis (IDS_CULTURAS_ELEGIVEIS)."""
     erros = []
     atividade = atendimento.get("atividade_produtiva")
     id_cultura = atendimento.get("id_cultura")
@@ -35,8 +33,8 @@ def auditar_atividade_produtiva(atendimento: dict, culturas_validas: set | None 
 
     if id_cultura is None or str(id_cultura).strip() == "":
         erros.append("Atividade produtiva sem ID de cultura associado")
-    elif culturas_validas is not None and str(id_cultura).strip() not in culturas_validas:
-        erros.append(f"ID de cultura inexistente ({id_cultura})")
+    elif str(id_cultura).strip() not in culturas_validas:
+        erros.append(f"ID de cultura inexistente ou não elegível ({id_cultura})")
 
     return erros
 
