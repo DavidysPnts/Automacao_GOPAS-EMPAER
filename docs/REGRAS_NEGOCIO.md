@@ -48,8 +48,9 @@ O registro é sinalizado como erro caso qualquer um dos campos abaixo esteja em 
 * Quantidade de medidores
 
 ### 3.2. Consistência de Atividade Produtiva
-* Cada cultura possui um ID numérico de referência (ex: `Abacaxi -> 1`).
-* **Critério de Erro:** Campo vazio ou ID inexistente (que não aponta para nenhuma cultura válida na tabela de referência).
+* Cada cultura elegível possui um ID numérico de referência (ex: `Abacaxi -> 1`).
+* **Exceção Válida (`0`):** Quando o beneficiário não possui atividade produtiva (ex.: aposentado rural), o extensionista preenche o campo com `0`, o que é aceito sem gerar pendência.
+* **Critério de Erro:** Campo vazio, texto sem ID numérico ou ID diferente de `0` que não conste na tabela oficial de culturas elegíveis (`culturas_elegiveis.json`).
 
 ### 3.3. Auditoria de Geolocalização (Coordenadas)
 * Quando o beneficiário possuir propriedade cadastrada na Aba Beneficiário, compara-se a coordenada da propriedade com a coordenada registrada no atendimento.
