@@ -1,3 +1,4 @@
+from src.config import IDS_CULTURAS_ELEGIVEIS
 from src.higienizacao import parse_data
 from src.validacao_atendimento import (
     auditar_atividade_produtiva,
@@ -24,7 +25,7 @@ def auditar_registro(
     dados_uf: dict,
     dados_beneficiario: dict,
     atendimentos: list[dict],
-    culturas_validas: set | None = None,
+    culturas_validas: set[str] = IDS_CULTURAS_ELEGIVEIS,
 ) -> dict:
     """
     Executa a esteira completa de auditoria para uma linha da planilha SEFAZ.
